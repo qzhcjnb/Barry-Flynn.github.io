@@ -1362,7 +1362,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://i.loli.net/2021/09/15/7TgNcJjKMEHuRWa.jpg);
+  background: url(https://i.loli.net/2021/09/14/6I7RoPjs5nFUe1M.jpg);
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -3041,6 +3041,54 @@ blockquote footer cite:before {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+.page .card-recent-post {
+  -webkit-box-ordinal-group: 4;
+  -moz-box-ordinal-group: 4;
+  -o-box-ordinal-group: 4;
+  -ms-flex-order: 4;
+  -webkit-order: 4;
+  order: 4;
+}
+.page #card-newest-comments {
+  -webkit-box-ordinal-group: 7;
+  -moz-box-ordinal-group: 7;
+  -o-box-ordinal-group: 7;
+  -ms-flex-order: 7;
+  -webkit-order: 7;
+  order: 7;
+}
+.page .card-categories {
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -o-box-ordinal-group: 1;
+  -ms-flex-order: 1;
+  -webkit-order: 1;
+  order: 1;
+}
+.page .card-tags {
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -o-box-ordinal-group: 2;
+  -ms-flex-order: 2;
+  -webkit-order: 2;
+  order: 2;
+}
+.page .card-archives {
+  -webkit-box-ordinal-group: '';
+  -moz-box-ordinal-group: '';
+  -o-box-ordinal-group: '';
+  -ms-flex-order: '';
+  -webkit-order: '';
+  order: '';
+}
+.page .card-webinfo {
+  -webkit-box-ordinal-group: 5;
+  -moz-box-ordinal-group: 5;
+  -o-box-ordinal-group: 5;
+  -ms-flex-order: 5;
+  -webkit-order: 5;
+  order: 5;
 }
 @-moz-keyframes more-btn-move {
   0%, 100% {
