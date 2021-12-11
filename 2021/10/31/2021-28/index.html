@@ -42,7 +42,7 @@
     day: '天前',
     month: '个月前'
   },
-  copyright: {"limitCount":30,"languages":{"author":"作者: 百里飞洋丨Barry Flynn","link":"链接: ","source":"来源: 百里飞洋の博客","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  copyright: {"limitCount":50,"languages":{"author":"作者: 百里飞洋丨Barry Flynn","link":"链接: ","source":"来源: 百里飞洋の博客","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
   lightbox: 'fancybox',
   Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#121212","bgDark":"#49b1f5","position":"bottom-right"},
   source: {
@@ -136,8 +136,12 @@
       }
       const t = saveToLocal.get('theme')
     
-          if (t === 'dark') activateDarkMode()
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
           else if (t === 'light') activateLightMode()
+          else activateDarkMode()
         
       const asideStatus = saveToLocal.get('aside-status')
       if (asideStatus !== undefined) {
@@ -160,6 +164,9 @@
     }
     detectApple()
     document.addEventListener('pjax:complete', detectApple)})(window)</script><style type="text/css">
+/* 标题文字添加阴影 */ #page-header #site-title { text-shadow: 5px 5px 10px black; }
+/* 顶部导航栏页面名添加阴影 */ #nav .site-page { text-shadow: 1px 1px 3px #2f2e33; }
+/* 顶部导航栏隐藏列表设置圆角样式 */ #nav .menus_items .menus_item .menus_item_child { border-radius: 10px; } #nav .menus_items .menus_item .menus_item_child li { border-radius: 10px; }
 /* 页面中插入的图片设置为圆角 */ #article-container img{ border-radius: 0.5rem; }
 /* 博客侧边栏的索引图变成圆角矩形（如最新文章的封面小图、最新评论的头像小图等）*/ #aside-content .aside-list > .aside-list-item .thumbnail > img { border-radius: 0.5rem; }
 /* 博客侧边栏的按钮样式从方形变成圆角矩形*/ #aside-content .card-info #card-info-btn { border-radius: 5rem; }
