@@ -1,0 +1,501 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>【字节跳动】青训营·寒假前端场 | 百里飞洋</title><meta name="keywords" content="前端,青训营"><meta name="author" content="百里飞洋丨Barry Flynn"><meta name="copyright" content="百里飞洋丨Barry Flynn"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="由字节跳动前端团队倾力主办，召集了来自字节各大前端团队技术大咖及一线优秀工程师，作为讲师分享前端知识。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【字节跳动】青训营·寒假前端场">
+<meta property="og:url" content="https://blog.meta-code.top/2021/12/31/2021-61/index.html">
+<meta property="og:site_name" content="百里飞洋">
+<meta property="og:description" content="由字节跳动前端团队倾力主办，召集了来自字节各大前端团队技术大咖及一线优秀工程师，作为讲师分享前端知识。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://s4.ax1x.com/2021/12/31/T4jk0U.png">
+<meta property="article:published_time" content="2021-12-31T15:33:24.000Z">
+<meta property="article:modified_time" content="2022-01-14T15:17:55.154Z">
+<meta property="article:author" content="百里飞洋丨Barry Flynn">
+<meta property="article:tag" content="前端">
+<meta property="article:tag" content="青训营">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s4.ax1x.com/2021/12/31/T4jk0U.png"><link rel="shortcut icon" href="/img/icon/%E7%81%AB%E7%AE%AD.png"><link rel="canonical" href="https://blog.meta-code.top/2021/12/31/2021-61/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e21f557d5683e4733d77db5ab8910d7b";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":90,"position":"top","messagePrev":"叮咚~距离该文章发表已经","messageNext":"天了哦，部分技术内容可能会过期和失效。"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":100,"languages":{"author":"作者: 百里飞洋丨Barry Flynn","link":"链接: ","source":"来源: 百里飞洋","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#121212","bgDark":"#49b1f5","position":"bottom-right"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【字节跳动】青训营·寒假前端场',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-01-14 23:17:55'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    document.addEventListener('pjax:complete', detectApple)})(window)</script><style type="text/css">
+/* 标题文字添加阴影 */ #page-header #site-title { text-shadow: 5px 5px 10px black; } #page-header #site-subtitle { text-shadow: 2px 2px 5px black; }
+/* 顶部导航栏页面名添加阴影 */ #nav .site-page { text-shadow: 1px 1px 3px #2f2e33; }
+/* 顶部导航栏隐藏列表设置圆角样式 */ #nav .menus_items .menus_item .menus_item_child { border-radius: 10px; } #nav .menus_items .menus_item .menus_item_child li { border-radius: 10px; }
+/* 页面中插入的图片设置为圆角 */ #article-container img{ border-radius: 0.5rem; }
+/* 博客侧边栏的索引图变成圆角矩形（如最新文章的封面小图、最新评论的头像小图等）*/ #aside-content .aside-list > .aside-list-item .thumbnail > img { border-radius: 0.5rem; }
+/* 博客侧边栏的按钮样式从方形变成圆角矩形*/ #aside-content .card-info #card-info-btn { border-radius: 5rem; }
+/* 移动端隐藏子目录侧边栏的头像div */ #sidebar #sidebar-menus > .avatar-img{ border: 3px solid #0085ff; box-shadow: 5px 5px 20px #0035ff; } /* 移动端隐藏子目录侧边栏的头像下方：“文章、标签、分类”三个div块外面的大div */ #sidebar #sidebar-menus .site-data{ display: flex; justify-content: space-around; }
+/* 移动端隐藏子目录侧边栏的头像下方：“文章、标签、分类”三个div块 */ #sidebar #sidebar-menus .site-data .data-item{ background: #f96d6d; border-radius: 0.5rem; width: 30%; } #sidebar #sidebar-menus .site-data .data-item .data-item-link .headline{ color: white; } #sidebar #sidebar-menus .site-data .data-item .data-item-link .length-num{ color: white; background: #49b1f5; border-radius: 0 0 0.5rem 0.5rem; font-weight: bold; }
+/* 移动端隐藏侧边栏目录菜单div */ #sidebar #sidebar-menus .menus_items .site-page{ border-radius: 0.5rem; background: linear-gradient(to right, #4b6bfa ,#8bfea8 ); margin-top: 0.5rem; color: #141414; }
+/* 右下角按钮样式 */ #rightside > div > button{ border: 1px solid grey; border-radius: 0.5rem; background: black; } #rightside > div > button, #rightside > div > a{ border-radius: 0.5rem; } #to_comment { border: 1px solid grey; } #rightside > div > #go-up{ background: #f96d6d; }
+/* 友链页面好友小方块 */ #article-container .flink .flink-list > .flink-list-item { border: 1px dashed grey; }
+/* 底部页数div样式 */ #pagination .pagination{ /*background: var(--card-bg);*/ background: linear-gradient(to right, black , var(--card-bg) , black ); border-radius: 12px 8px 8px 12px; transition: all 0.3s; } #pagination .page-number.current{ background: #f96d6d; color: white; font-weight：bold; } #pagination .page-number{ background: #49b1f5; color: white; font-weight：bold; }
+/* 页尾 */ #footer { border-radius: 20px 20px 0 0; } #footer-wrap{ border-radius: 20px 20px 0 0; /*background: linear-gradient(to bottom, #49b1f5 , black );*/ }
+/* 设置鼠标样式文件 */ html { cursor: url("img/cursor/normal.cur"),auto; } a { cursor: url("img/cursor/link.cur"),pointer; }
+</style><style type="text/css"> /* 播放器整体 */ .aplayer.no-destroy.no-reload.aplayer-withlist.aplayer-fixed { bottom: 25px; box-shadow: 0 0 10px black; } /* 播放器主体 */ .aplayer.no-destroy.no-reload.aplayer-withlist.aplayer-fixed .aplayer-body { border-radius: 0 10px 10px 0; bottom: 25px; box-shadow: 0 0 10px black; } /* 展开收起按钮 */ .aplayer.aplayer-fixed .aplayer-miniswitcher { background: #cbcbcb; border-radius: 0 10px 10px 0; }
+/* 设置音乐播放器默认收起、鼠标悬浮出现 */ .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body { left: -66px !important; } .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover { left: 0 !important; }
+</style><link rel="stylesheel" href="http://at.alicdn.com/t/font_2808642_brdb80b6sdr.css"><style type="text/css"> #universe {  display: block; position: fixed; margin: 0; padding: 0; border: 0; outline: 0; left: 0; top: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; } </style><meta name="generator" content="Hexo 5.4.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/img/%E5%A4%B4%E5%83%8F-%E4%B8%8E%E7%8C%AB%E5%90%88%E6%8B%8D.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">72</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">34</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/saying/"><i class="fa-fw fas fa-comments"></i><span> 哔哔空间</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-icons"></i><span> 视频/图库</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 视频</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 图库</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-book"></i><span> 找文章</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 按分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 按标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 按时间</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-medal"></i><span> 关于我</span></a></li><li><a class="site-page child" href="/Reward-list/"><i class="fa-fw fas fa-clipboard-list"></i><span> 打赏榜</span></a></li><li><a class="site-page child" href="/about-website/"><i class="fa-fw fas fa-envelope-open-text"></i><span> 网站声明</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-sign-in-alt"></i><span> 更多</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/project/"><i class="fa-fw fas fa-star"></i><span> 在线小项目</span></a></li><li><a class="site-page child" href="/tools/"><i class="fa-fw fas fa-tools"></i><span> 常用小工具</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://c.runoob.com/"><i class="fa-fw fas fa-toolbox"></i><span> 在线工具箱①</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://tool.lu/"><i class="fa-fw fas fa-toolbox"></i><span> 在线工具箱②</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://s4.ax1x.com/2021/12/31/T4jk0U.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">百里飞洋</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/saying/"><i class="fa-fw fas fa-comments"></i><span> 哔哔空间</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-icons"></i><span> 视频/图库</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 视频</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 图库</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-book"></i><span> 找文章</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 按分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 按标签</span></a></li><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 按时间</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 关于</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-medal"></i><span> 关于我</span></a></li><li><a class="site-page child" href="/Reward-list/"><i class="fa-fw fas fa-clipboard-list"></i><span> 打赏榜</span></a></li><li><a class="site-page child" href="/about-website/"><i class="fa-fw fas fa-envelope-open-text"></i><span> 网站声明</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-sign-in-alt"></i><span> 更多</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/project/"><i class="fa-fw fas fa-star"></i><span> 在线小项目</span></a></li><li><a class="site-page child" href="/tools/"><i class="fa-fw fas fa-tools"></i><span> 常用小工具</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://c.runoob.com/"><i class="fa-fw fas fa-toolbox"></i><span> 在线工具箱①</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://tool.lu/"><i class="fa-fw fas fa-toolbox"></i><span> 在线工具箱②</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">【字节跳动】青训营·寒假前端场</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-12-31T15:33:24.000Z" title="发表于 2021-12-31 23:33:24">2021-12-31</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-01-14T15:17:55.154Z" title="更新于 2022-01-14 23:17:55">2022-01-14</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">629</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>2分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="【字节跳动】青训营·寒假前端场"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><blockquote>
+<p>【<a target="_blank" rel="noopener" href="https://juejin.cn/">稀土掘金-首页</a>】【<a target="_blank" rel="noopener" href="https://forum.juejin.cn/youthcamp/category/6950604566068985897">掘金-青训营社区</a>】【<a target="_blank" rel="noopener" href="https://youthcamp.bytedance.com/">字节-青训营官网</a>】【<a target="_blank" rel="noopener" href="https://u2x6q889x3.feishu.cn/drive/home/">飞书文档</a>】</p>
+</blockquote>
+<p>青训营是字节跳动技术团队发起的<code>技术系列培训</code> &amp; <code>人才选拔项目</code>。<br>主要面向在校大学生，旨在培养优秀且具有职业竞争力的开发工程师。</p>
+<hr>
+<h1 id="【时间安排】"><a href="#【时间安排】" class="headerlink" title="【时间安排】"></a>【时间安排】</h1><!-- ![TOSKBD.jpg](https://s4.ax1x.com/2022/01/04/TOSKBD.jpg) -->
+
+<p>在线报名：12月28日～1月10日<br>笔试通知：1月11日<br>线上笔试：1月12日「进阶班 基础班」<br>入营通知：1月13日<br>开营班会：1月14日<br>前端课程直播：1月16日～1月26日<br>参与课程学习并组队完成大项目：1月17日~2月11日）<br>结营：待续</p>
+<h1 id="1-课程一览"><a href="#1-课程一览" class="headerlink" title="1.课程一览"></a>1.课程一览</h1><p><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://s4.ax1x.com/2022/01/04/TOS0EQ.jpg" alt="TOS0EQ.jpg"></p>
+<!-- 前端与HTML
+理解CSS
+跟着月影学JavaScript
+Web标准与前端开发
+前端必须知道的开发调试知识
+响应式系统与React
+前端实现动画
+HTTP实用指南
+Node.js与前端开发实战
+Web开发的安全之旅
+WebGL基础
+简明图形渲染
+Webpack知识体系
+TypeScript入门
+小游戏开发(wip)
+小程序技术全解
+前端设计模式应用
+Web多媒体入门
+数据可视化基础 -->
+
+
+<h1 id="2-课程表"><a href="#2-课程表" class="headerlink" title="2.课程表"></a>2.课程表</h1><ul>
+<li><p>【基础班】</p>
+<ul>
+<li>课程培训：1月16日 - 1月26日</li>
+<li>项目开发：1月17日 - 2月11日<br><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://s4.ax1x.com/2022/01/14/7835VS.png" alt="基础班.png"></li>
+</ul>
+</li>
+<li><p>【进阶班】</p>
+<ul>
+<li>课程培训：1月16日 - 1月29日</li>
+<li>项目开发：1月17日 - 2月18日<br><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://s4.ax1x.com/2022/01/14/7888qf.png" alt="进阶班.png"></li>
+</ul>
+</li>
+</ul>
+<h1 id="3-活动一览表"><a href="#3-活动一览表" class="headerlink" title="3.活动一览表"></a>3.活动一览表</h1><p><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://s4.ax1x.com/2022/01/01/T5VT9P.png" alt="T5VT9P.png"></p>
+<h1 id="4-事件时间线"><a href="#4-事件时间线" class="headerlink" title="4.事件时间线"></a>4.事件时间线</h1><ul>
+<li><p><code>2021-01-04</code>（周二晚7点）：<a target="_blank" rel="noopener" href="https://live.juejin.cn/4354/youthcamp_beforehand">青训营早知晓 - 直播</a></p>
+</li>
+<li><p><code>2022-01-12</code>（周二）：接收笔试通知邮箱链接</p>
+</li>
+<li><p><code>2022-01-12</code>（周三全天）：线上笔试（任选 1.5 小时完成即可）</p>
+</li>
+<li><p><code>2022-01-13</code>（周四）：接收入营分班通知</p>
+<ul>
+<li>青训营课程线上地址：<a target="_blank" rel="noopener" href="https://forum.juejin.cn/youthcamp/category/juejinlive">https://forum.juejin.cn/youthcamp/category/juejinlive</a></li>
+<li>必用文档【1月15日10点前需完成】：<a target="_blank" rel="noopener" href="https://forum.juejin.cn/youthcamp/post/7052645239814619172?from=1">第二届青训营同学必学 &amp; 必用工具</a></li>
+</ul>
+</li>
+<li><p><code>2022-01-14</code>（周五）：<a target="_blank" rel="noopener" href="https://live.juejin.cn/4354/yc_start-up">开营班会 - 直播</a></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://u2x6q889x3.feishu.cn/docx/doxcnGKxPVYXBDzBA5Tsu4Y5ssf">青训营第二期-笔记创作活动</a>（争取产出 14+ 篇）</li>
+<li><a target="_blank" rel="noopener" href="https://u2x6q889x3.feishu.cn/docx/doxcnzWYPlzrDzsfdyvcOJeYy5d">笔记创作评判标准 &amp; 模版</a></li>
+</ul>
+</li>
+<li><p><code>2022-01-15</code>（周六）</p>
+</li>
+</ul>
+<div class="note red no-icon flat"><p><font size=4><strong>时间线持续实时更新中！</strong></font></p>
+</div>
+
+<hr>
+<h1 id="【其他链接】"><a href="#【其他链接】" class="headerlink" title="【其他链接】"></a>【其他链接】</h1><ul>
+<li>（2022-01-13）<a target="_blank" rel="noopener" href="https://forum.juejin.cn/youthcamp/post/7052638516248838151?from=1">第二届字节跳动青训营-寒假前端场 -YouthCampers 看这里</a></li>
+<li>（2021-12-28）<a target="_blank" rel="noopener" href="https://forum.juejin.cn/youthcamp/post/7046590089350086686">【青训营攻略合集】你想要的这都有，高效学习必读！（含福利大赏）</a></li>
+<li>（2021-12-15）<a target="_blank" rel="noopener" href="https://forum.juejin.cn/youthcamp/post/7041771131983888420">【青训营常见 Q&amp;A】🙋🏻‍♀️🙋🏻Ask Me Anything！ 🙌🏻 （持续更新中）</a></li>
+<li>（2021-12-20）本期：<a target="_blank" rel="noopener" href="https://forum.juejin.cn/youthcamp/post/7043628062574903309">青训营简介、报名入口、时间节点及课程安排</a></li>
+<li>（2021-12-28）本期：<a target="_blank" rel="noopener" href="https://juejin.cn/post/7046773820136357896">第二届字节跳动「青训营」寒假前端场</a> 报名通知</li>
+<li>（2021-07-23）往期：<a target="_blank" rel="noopener" href="https://www.douban.com/group/topic/236005902/?_i=0961399-3ajVrG">第一届字节跳动「青训营」走进前端</a> 报名通知</li>
+<li>（2020-05-06）字节跳动 - <a target="_blank" rel="noopener" href="https://juejin.cn/post/6844904149054652423">2020前端实习面经</a></li>
+<li>（2019-07-04）<a target="_blank" rel="noopener" href="https://juejin.cn/post/6844903880598224909">字节跳动最“挣钱”的前端团队招人啦～</a></li>
+<li>（内推）字节跳动：<a target="_blank" rel="noopener" href="https://jobs.bytedance.com/referral/pc/position">https://jobs.bytedance.com/referral/pc/position</a></li>
+<li>字节跳动官网：<a target="_blank" rel="noopener" href="https://www.bytedance.com/">https://www.bytedance.com/</a></li>
+<li>掘金社区：<a target="_blank" rel="noopener" href="https://juejin.cn/">https://juejin.cn/</a></li>
+<li>字节前端：<a target="_blank" rel="noopener" href="https://juejin.cn/user/4098589725834317">https://juejin.cn/user/4098589725834317</a></li>
+<li>字节夏令营ByteCamp：<a target="_blank" rel="noopener" href="https://bytecamp.toutiao.com/">https://bytecamp.toutiao.com/</a></li>
+<li>字节跳动招聘：<a target="_blank" rel="noopener" href="https://jobs.toutiao.com/">https://jobs.toutiao.com</a></li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">百里飞洋丨Barry Flynn</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://blog.meta-code.top/2021/12/31/2021-61/">https://blog.meta-code.top/2021/12/31/2021-61/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.meta-code.top" target="_blank">百里飞洋</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%89%8D%E7%AB%AF/">前端</a><a class="post-meta__tags" href="/tags/%E9%9D%92%E8%AE%AD%E8%90%A5/">青训营</a></div><div class="post_share"><div class="social-share" data-image="https://s4.ax1x.com/2021/12/31/T4jk0U.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button button--animated"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/../../../../img/%E4%BA%8C%E7%BB%B4%E7%A0%81/%E5%BE%AE%E4%BF%A1WeChat%E6%89%93%E8%B5%8F%E7%A0%81.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/../../../../img/%E4%BA%8C%E7%BB%B4%E7%A0%81/%E5%BE%AE%E4%BF%A1%E6%89%93%E8%B5%8F%EF%BC%88%E7%BA%AF%E4%BA%8C%E7%BB%B4%E7%A0%81%EF%BC%89.png" alt="WeChat微信打赏"/></a><div class="post-qr-code-desc">WeChat微信打赏</div></li><li class="reward-item"><a href="/../../../../img/%E4%BA%8C%E7%BB%B4%E7%A0%81/%E6%94%AF%E4%BB%98%E5%AE%9DAliPay%E6%89%93%E8%B5%8F%E7%A0%81.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/../../../../img/%E4%BA%8C%E7%BB%B4%E7%A0%81/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%89%93%E8%B5%8F%EF%BC%88%E7%BA%AF%E4%BA%8C%E7%BB%B4%E7%A0%81%EF%BC%89.png" alt="AliPay支付宝打赏"/></a><div class="post-qr-code-desc">AliPay支付宝打赏</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2021/12/31/2021-60/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://s4.ax1x.com/2021/12/31/T4A4OJ.jpg" onerror="onerror=null;src='/img/404.gif'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">在Windows界面下用Xshell访问并远程控制终端服务器</div></div></a></div><div class="next-post pull-right"><a href="/2022/01/03/2022-1/"><img class="next-cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/img/images/hello%20world.jpg" onerror="onerror=null;src='/img/404.gif'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">【前端】HTML页面中自动循环播放的背景视频</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2022/01/14/2022-9/" title="【青训营】原来菜鸡之间的竞争也会如此激烈"><img class="cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://s4.ax1x.com/2022/01/14/7GFqy9.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-01-14</div><div class="title">【青训营】原来菜鸡之间的竞争也会如此激烈</div></div></a></div><div><a href="/2021/12/07/2021-48/" title="【VScode】实时预览插件Live Server"><img class="cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="https://s4.ax1x.com/2021/12/24/TtxZNt.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-07</div><div class="title">【VScode】实时预览插件Live Server</div></div></a></div><div><a href="/2021/12/08/2021-50/" title="【VScode】通过JavaScript连接并插入前端参数到SQL Server数据库"><img class="cover" src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/img/images/hello%20world.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-12-08</div><div class="title">【VScode】通过JavaScript连接并插入前端参数到SQL Server数据库</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E3%80%90%E6%97%B6%E9%97%B4%E5%AE%89%E6%8E%92%E3%80%91"><span class="toc-text">【时间安排】</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E8%AF%BE%E7%A8%8B%E4%B8%80%E8%A7%88"><span class="toc-text">1.课程一览</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E8%AF%BE%E7%A8%8B%E8%A1%A8"><span class="toc-text">2.课程表</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E6%B4%BB%E5%8A%A8%E4%B8%80%E8%A7%88%E8%A1%A8"><span class="toc-text">3.活动一览表</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-%E4%BA%8B%E4%BB%B6%E6%97%B6%E9%97%B4%E7%BA%BF"><span class="toc-text">4.事件时间线</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E3%80%90%E5%85%B6%E4%BB%96%E9%93%BE%E6%8E%A5%E3%80%91"><span class="toc-text">【其他链接】</span></a></li></ol></div></div></div></div></main><footer id="footer" style="background-image: url('https://img.zcool.cn/community/01a7cf614d478e11013f22cff0bcdb.gif')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By 百里飞洋丨Barry Flynn</div><div class="footer_custom_text"><a target="_blank" rel="noopener" href="http://meta-code.top/">元代码</a>丨<a target="_blank" rel="noopener" href="https://weibo.com/6327778914/profile?topnav=1&wvr=6&is_all=1"><i class="fab fa-weibo"></i>&nbsp;<span>新浪微博</span></a>丨<a target="_blank" rel="noopener" href="https://space.bilibili.com/349963315"><i class="fab fa-youtube"></i>&nbsp;<span>哔哩哔哩</span></a>丨<a href="/about/">关于我</a><br /> <a href="/saying/">哔哔空间</a>丨<a target="_blank" rel="noopener" href="https://tongji.baidu.com/">网站统计</a>丨<a href="/about-website/">网站声明</a>丨<a href="/link/">友情链接</a><br /> <a target="_blank" rel="noopener" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41071102000543"><span style="vertical-align:middle;"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/img/备案图标.png" style="vertical-align:middle;">&nbsp;豫公网安备 41071102000543号</a></span><br /> <a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/"><span style="vertical-align:middle;"><img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/img/ICP备案.png" style="vertical-align:middle;width:20px;height:20px;">&nbsp;豫ICP备2021034491号</a></span><br /> <span><星河滚烫，无问西东></span><br /> <br /> <img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/img/二维码/移动端访问.png" style="width:130px;height:150px;border-radius:20px;display:inline-block;margin:0 5px;"> <img src= "data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" data-lazy-src="/img/二维码/添加QQ好友.png" style="width:130px;height:150px;border-radius:20px;display:inline-block;margin:0 5px;"><br /></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>(()=>{
+  const $countDom = document.getElementById('twikoo-count')
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://barry-flynn-s-blog.vercel.app/',
+      region: ''
+    }, null))
+  }
+
+  const getCount = () => {
+    twikoo.getCommentsCount({
+      envId: 'https://barry-flynn-s-blog.vercel.app/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(function (res) {
+      $countDom.innerText = res[0].count
+    }).catch(function (err) {
+      console.error(err);
+    });
+  }
+
+  const loadTwikoo = (bool = false) => {
+    if (typeof twikoo === 'object') {
+      init()
+      bool && $countDom && setTimeout(getCount,0)
+    } else {
+      getScript('https://cdn.jsdelivr.net/npm/twikoo@1.4.9/dist/twikoo.all.min.js').then(()=> {
+        init()
+        bool && $countDom && setTimeout(getCount,0)
+      })
+    }
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo(true)
+  } else {
+    window.loadOtherComment = () => {
+      loadTwikoo()
+    }
+  }
+})()</script></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://barry-flynn-s-blog.vercel.app/',
+        region: '',
+        pageSize: 5,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.innerHTML= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://cdn.jsdelivr.net/npm/twikoo@1.4.9/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}'>${array[i].content}</a>
+        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom.innerHTML= result
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><canvas id="universe"></canvas><script defer src="/js/universe.js"></script><div class="aplayer no-destroy" data-id="1050282" data-server="netease" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" data-lrctype="0" muted></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+  'title',
+  '#config-diff',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (false) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.removeEventListener('scroll', window.tocScrollFn)
+  window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // Analytics
+  if (false) {
+    MtaH5.pgv()
+  }
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
