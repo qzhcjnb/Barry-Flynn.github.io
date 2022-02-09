@@ -1299,7 +1299,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 10px;
+  --global-font-size: 13px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #a4d8fa;
@@ -1343,10 +1343,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 *::-webkit-scrollbar {
   width: 8px;
@@ -1366,7 +1362,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://img.zcool.cn/community/01dc55614d755011013e8943090d71.png@1280w_1l_2o_100sh.png);
+  background: url(/img/images/cctv_bg.png);
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -4433,7 +4429,7 @@ blockquote footer cite:before {
   position: absolute;
   top: calc(50% - 0.35rem);
   color: #f47466;
-  content: '\f0c1';
+  content: '\f7e4';
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
