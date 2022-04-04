@@ -1,0 +1,245 @@
+/* 
+作者: 百里飞洋(Barry-Flynn)
+时间: 2021-2022年 
+*/
+
+
+/* 设置鼠标样式文件 */
+html {
+    cursor: url("img/cursor/normal.cur"),auto;
+}
+a {
+    cursor: url("img/cursor/link.cur"),pointer;
+}
+
+
+/* 非主页顶部图 */
+#page-header.not-home-page {
+    border-radius: 0 0 300px 300px;
+    box-shadow: 0px 10px 50px #7ac7df;
+}
+
+/* 标题文字添加阴影 */
+#page-header #site-title {
+    text-shadow: 5px 5px 10px black;
+}
+#page-header #site-subtitle {
+    text-shadow: 2px 2px 5px black;
+}
+
+/* 顶部导航栏页面名添加阴影 */
+#nav .site-page {
+    text-shadow: 1px 1px 3px #2f2e33;
+}
+
+/* 顶部导航栏隐藏列表设置圆角样式 */
+#nav .menus_items .menus_item .menus_item_child {
+    border-radius: 10px;
+}
+#nav .menus_items .menus_item .menus_item_child li {
+    border-radius: 10px;
+}
+
+/* 页面中插入的图片设置为圆角 */
+#article-container img{
+    border-radius: 0.5rem;
+}
+
+/* 博客侧边栏的索引图变成圆角矩形（如最新文章的封面小图、最新评论的头像小图等）*/
+#aside-content .aside-list > .aside-list-item .thumbnail > img {
+    border-radius: 0.5rem;
+}
+
+/* 博客侧边栏的按钮样式从方形变成圆角矩形*/
+#aside-content .card-info #card-info-btn {
+    border-radius: 5rem;
+}
+
+/* 移动端隐藏子目录侧边栏的头像div */
+#sidebar #sidebar-menus > .avatar-img{
+    border: 3px solid #0085ff;
+    box-shadow: 5px 5px 20px #0035ff;
+}
+/* 移动端隐藏子目录侧边栏的头像下方：“文章、标签、分类”三个div块外面的大div */
+#sidebar #sidebar-menus .site-data{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 移动端隐藏子目录侧边栏的头像下方：“文章、标签、分类”三个div块 */
+#sidebar #sidebar-menus .site-data .data-item{
+    background: #f96d6d;
+    border-radius: 0.5rem;
+    width: 30%;
+}
+#sidebar #sidebar-menus .site-data .data-item .data-item-link .headline{
+    color: white;
+}
+#sidebar #sidebar-menus .site-data .data-item .data-item-link .length-num{
+    color: white;
+    background: #49b1f5;
+    border-radius: 0 0 0.5rem 0.5rem;
+    font-weight: bold;
+}
+
+/* 移动端隐藏侧边栏目录菜单div */
+#sidebar #sidebar-menus .menus_items .site-page{
+    border-radius: 0.5rem;
+    background: linear-gradient(to right, #4b6bfa ,#8bfea8 );
+    margin-top: 0.5rem;
+    color: #141414;
+}
+
+/* 右下角按钮样式 */
+#rightside > div > button{
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    background: black;
+}
+#rightside > div > button, #rightside > div > a{
+    border-radius: 0.5rem;
+}
+#to_comment {
+    border: 1px solid grey;
+}
+#rightside > div > #go-up{
+    background: #f96d6d;
+}
+
+/* 友链页面好友小方块 */
+#article-container .flink .flink-list > .flink-list-item {
+    border: 1px dashed grey;
+}
+
+/* 底部页数div样式 */
+#pagination .pagination{
+    /*background: var(--card-bg);*/
+    background: linear-gradient(to right, black , var(--card-bg) , black );
+    border-radius: 12px 8px 8px 12px;
+    transition: all 0.3s;
+}
+#pagination .page-number.current{
+    background: #f96d6d;
+    color: white;
+    font-weight: bold;
+}
+#pagination .page-number{
+    background: #49b1f5;
+    color: white;
+    font-weight: bold;
+}
+
+/* 页尾 */
+#footer {
+    border-radius: 20px 20px 0 0;
+}
+#footer-wrap{
+    border-radius: 20px 20px 0 0;
+    /*background: linear-gradient(to bottom, #49b1f5 , black );*/
+}
+
+
+
+
+/* Aplayer 的全局吸底音乐标签 */
+/* 播放器整体 */
+.aplayer.no-destroy.no-reload.aplayer-withlist.aplayer-fixed {
+    bottom: 25px;
+    box-shadow: 0 0 10px black;
+}
+/* 播放器主体 */
+.aplayer.no-destroy.no-reload.aplayer-withlist.aplayer-fixed .aplayer-body {
+    border-radius: 0 10px 10px 0;
+    bottom: 25px;
+    box-shadow: 0 0 10px black;
+}
+/* 展开收起按钮 */
+.aplayer.aplayer-fixed .aplayer-miniswitcher {
+    background: #cbcbcb;
+    border-radius: 0 10px 10px 0;
+}
+
+/* 设置音乐播放器默认收起、鼠标悬浮出现 */
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+    left: -66px !important;
+}
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+    left: 0 !important;
+}
+
+
+
+/* 缩小首页文章列表卡片 */
+#recent-posts > .recent-post-item .post_cover {
+    width: 40%;
+}
+#recent-posts > .recent-post-item >.recent-post-info {
+    width: 60%;
+}
+#recent-posts > .recent-post-item {
+    height: 15em;
+}
+#recent-posts > .recent-post-item >.recent-post-info > .article-title {
+    font-size: 1.25em;
+}
+/* 解决缩小首页文章列表卡片后，移动端的Bug */
+@media screen and (max-width: 768px) {
+    #recent-posts .recent-post-item .post_cover {
+        -webkit-box-ordinal-group: 1 !important;
+        -moz-box-ordinal-group: 1 !important;
+        -o-box-ordinal-group: 1 !important;
+        -ms-flex-order: 1 !important;
+        -webkit-order: 1 !important;
+        order: 1 !important;
+        width: 100%;
+        height: 230px;
+        border-radius: 8px 8px 0 0;
+    }
+    #recent-posts .recent-post-item .recent-post-info {
+        -webkit-box-ordinal-group: 2 !important;
+        -moz-box-ordinal-group: 2 !important;
+        -o-box-ordinal-group: 2 !important;
+        -ms-flex-order: 2 !important;
+        -webkit-order: 2 !important;
+        order: 2 !important;
+        padding: 1rem 1rem 1.5rem;
+        width: 100%;
+    }
+}
+
+
+
+/* 文章页面最上方标题 */
+#post-info .post-title {
+    font-size: 2em;
+}
+/* 有序/无序列表 */
+#article-container.post-content ol p, #article-container.post-content ul p {
+    margin: 0 0 0;
+}
+/* 高亮代码块 */
+#article-container figure.highlight {
+    margin: 0.2rem 0 0.5rem;
+}
+/* 目录内边距 */
+#aside-content #card-toc {
+    padding: 0.5rem 0.5rem;
+}
+
+
+
+/* 背景宇宙星光css文件 */
+#universe {  
+    display: block;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
