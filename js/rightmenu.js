@@ -91,7 +91,7 @@ if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mob
             $('#menu-text').show();
         }
 
-        console.log(event.target);
+        // console.log(event.target);
         let pageX = event.clientX + 10;
         let pageY = event.clientY;
         let rmWidth = $('#rightMenu').width();
