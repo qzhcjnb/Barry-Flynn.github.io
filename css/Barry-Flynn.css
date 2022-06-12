@@ -1,6 +1,8 @@
 /* 
-作者: 百里飞洋(Barry-Flynn)
-时间: 2021-2022年 
+文件名称：Hexo博客Butterfly主题魔改样式文件
+作者信息: 百里飞洋(Barry-Flynn)
+作者博客：http://blog.meta-code.top
+更新时间：2022年6月10日
 */
 
 
@@ -212,6 +214,10 @@ a {
 /* 文章页面最上方标题 */
 #post-info .post-title {
     font-size: 2em;
+}
+/* 文章页面“上一篇/下一篇”变成圆角样式 */
+nav#pagination.pagination-post {
+    border-radius: 25px;
 }
 
 
