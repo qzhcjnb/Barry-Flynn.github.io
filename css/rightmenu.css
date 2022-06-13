@@ -1,15 +1,21 @@
 /* rightMenu 右键菜单 */
+#rightMenu:hover {
+	border: 1px solid #425aef;
+	box-shadow: 0px 3px 10px #4259ef3a;
+}
 #rightMenu{
 	display: none;
 	position: fixed;
-	width: 160px;
+	width: 144px;
 	height: fit-content;
 	top: 10%;
 	left: 10%;
 	background-color: var(--card-bg);
-	border: 1px solid var(--font-color);
+	/* border: 1px solid var(--font-color); */
+	border: 1px solid #c0c4d1;
 	border-radius: 8px;
 	z-index: 100;
+	transition: 0.3s;
 }
 #rightMenu .rightMenu-group{
 	padding: 7px 6px;
@@ -26,7 +32,8 @@
 	line-height: 30px;
 	border-radius: 8px;
 	transition: 0.3s;
-	color: var(--font-color);
+	/* color: var(--font-color); */
+	color: #99a9bf;
 }
 #rightMenu .rightMenu-group.rightMenu-line .rightMenu-item{
 	display: flex;
@@ -35,7 +42,9 @@
 	padding: 0 4px;
 }
 #rightMenu .rightMenu-group .rightMenu-item:hover{
-	background-color: var(--text-bg-hover);
+	/* background-color: var(--text-bg-hover); */
+	background-color: #425AEF;
+	color: white;
 }
 #rightMenu .rightMenu-group .rightMenu-item i{
 	display: inline-block;
