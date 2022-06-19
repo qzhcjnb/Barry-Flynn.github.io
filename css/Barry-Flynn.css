@@ -168,6 +168,8 @@ a {
 }
 #rightside > div > button, #rightside > div > a{
     border-radius: 0.5rem;
+    width: 35px;
+    height: 35px;
 }
 #to_comment {
     border: 1px solid grey;
