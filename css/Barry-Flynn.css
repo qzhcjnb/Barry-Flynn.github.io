@@ -8,7 +8,7 @@
 
 
 
-/* ———————————————————— 鼠标 ———————————————————— */
+/* ———————————————————— 全局 ———————————————————— */
 
 /* 鼠标样式 */
 html {
@@ -22,7 +22,26 @@ a {
     background: #363636;
     color: #f7f7f7;
 }
-
+/* 滚动条 */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+    background-color: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #2ab1ff;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .4) 50%, rgba(255, 255, 255, .4) 75%, transparent 75%, transparent);
+    border-radius: 3em;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
 
 
 
