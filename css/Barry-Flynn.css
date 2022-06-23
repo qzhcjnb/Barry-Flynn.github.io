@@ -17,11 +17,13 @@ html {
 a {
     cursor: url("/img/cursor/link.cur"),pointer;
 }
+
 /* 选中文字 */
 *::selection {
     background: #363636;
     color: #f7f7f7;
 }
+
 /* 滚动条 */
 ::-webkit-scrollbar {
     width: 10px;
@@ -29,7 +31,9 @@ a {
     background-color: #f5f5f5;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: #2ab1ff;
+    /* background-color: #2ab1ff; */
+    /* background-color: #252aff; */
+    background-color: #2a78ff;
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .4) 50%, rgba(255, 255, 255, .4) 75%, transparent 75%, transparent);
     border-radius: 3em;
 }
@@ -42,6 +46,7 @@ a {
 ::-webkit-scrollbar-track {
     background-color: transparent;
 }
+
 
 
 
