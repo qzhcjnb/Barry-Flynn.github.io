@@ -1289,7 +1289,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(/img/images/cctv_bg.png);
+  background: url(/img/images/wallpaper-light.jpg);
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -2195,16 +2195,6 @@ blockquote footer cite:before {
     width: 100% !important;
   }
 }
-@media screen and (min-width: 900px) {
-  .layout > div:first-child {
-    -webkit-box-ordinal-group: 2;
-    -moz-box-ordinal-group: 2;
-    -o-box-ordinal-group: 2;
-    -ms-flex-order: 2;
-    -webkit-order: 2;
-    order: 2;
-  }
-}
 .layout.hide-aside {
   max-width: 1000px;
 }
@@ -2540,7 +2530,7 @@ blockquote footer cite:before {
 }
 @media screen and (min-width: 900px) {
   #aside-content {
-    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -5898,11 +5888,13 @@ blockquote.pullquote.right {
   opacity: 0.9;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
   filter: alpha(opacity=90);
+  border: 2px solid #383a3f;
 }
 [data-theme='dark'] #recent-posts .recent-post-item {
   opacity: 0.9;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
   filter: alpha(opacity=90);
+  border: 2px solid #383a3f;
   border-radius: 50px 25px 100px 25px;
   overflow: hidden;
 }
