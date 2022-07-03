@@ -5875,7 +5875,7 @@ blockquote.pullquote.right {
   --hlexpand-bg: linear-gradient(180deg, rgba(23,23,23,0.6), rgba(23,23,23,0.9));
 }
 [data-theme='dark'] #web_bg {
-  background-image: url("/img/images/dark-wallpaper.jpg");
+  background-image: url("/img/images/wallpaper-dark.jpg");
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   background-size: 100% 100%;

@@ -154,8 +154,8 @@ a {
 }
 /* Page/Post页面主体区域卡片 */
 .layout > div:first-child:not(.recent-posts) {
-    /* border: 2px solid #383a3f; */
-    border: 2px solid #d4d4d4;
+    border: 2px solid #383a3f;
+    /* border: 2px solid #d4d4d4; */
     transition: all 0.6s;
     z-index: 5;
 }
