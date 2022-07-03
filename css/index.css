@@ -5884,6 +5884,28 @@ blockquote.pullquote.right {
   --hlscrollbar-bg: #1f1f1f;
   --hlexpand-bg: linear-gradient(180deg, rgba(23,23,23,0.6), rgba(23,23,23,0.9));
 }
+[data-theme='dark'] #web_bg {
+  background-image: url("/img/images/dark-wallpaper.jpg");
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat center;
+}
+[data-theme='dark'] #aside-content .card-widget {
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+}
+[data-theme='dark'] #recent-posts .recent-post-item {
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+  border-radius: 50px 25px 100px 25px;
+  overflow: hidden;
+}
 [data-theme='dark'] #web_bg:before,
 [data-theme='dark'] #footer:before,
 [data-theme='dark'] #page-header:before {
