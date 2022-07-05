@@ -5898,6 +5898,9 @@ blockquote.pullquote.right {
   border-radius: 50px 25px 100px 25px;
   overflow: hidden;
 }
+[data-theme='dark'] .layout > div:first-child:not(.recent-posts) {
+  background: rgba(18,18,18,0.9);
+}
 [data-theme='dark'] #web_bg:before,
 [data-theme='dark'] #footer:before,
 [data-theme='dark'] #page-header:before {
