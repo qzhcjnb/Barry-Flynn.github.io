@@ -1,10 +1,14 @@
 /* ——————————————————————————————
 文件：Hexo博客Butterfly主题魔改样式
+风格：简约风格
 作者: 百里飞洋(Barry-Flynn)
 博客：http://blog.meta-code.top
-更新：2022年6月13日
+更新：2022年8月2日
 —————————————————————————————— */
 
+:root {
+    --bf-main: #075ddf;
+}
 
 
 
@@ -13,9 +17,27 @@
 /* 鼠标样式 */
 html {
     cursor: url("/img/cursor/normal.cur"),auto;
+    /* overflow-y: overlay; */
 }
 a {
     cursor: url("/img/cursor/link.cur"),pointer;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(60, 60, 67, 0.4);
+    border-radius: 8px;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #007aff
+}
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /* 选中文字 */
@@ -24,33 +46,27 @@ a {
     color: #f7f7f7;
 }
 
-/* 滚动条 */
-::-webkit-scrollbar {
-    width: 10px;
-    height: 8px;
-    background-color: #f5f5f5;
-}
-::-webkit-scrollbar-thumb {
-    /* background-color: #2ab1ff; */
-    /* background-color: #252aff; */
-    background-color: #2a78ff;
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .4) 50%, rgba(255, 255, 255, .4) 75%, transparent 75%, transparent);
-    border-radius: 3em;
-}
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
-    box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
-    background-color: #f5f5f5;
-    border-radius: 5px;
-}
-::-webkit-scrollbar-track {
-    background-color: transparent;
+/* 粗体标签 */
+b, strong {
+    color: #387bc5;
 }
 
-
+/* 分隔线 */
+hr {
+    border: 2px dashed #789dd3;
+}
+hr:before {
+    color: #4d73ff;
+}
 
 
 /* ———————————————————— Page页面 ———————————————————— */
+
+/* 顶部导航条 */
+#page-header.nav-visible #nav {
+    backdrop-filter: saturate(180%) blur(5px);
+    box-shadow: 0 5px 6px -5px rgb(133 133 133 / 60%);
+}   
 
 /* Page页面顶部图，设置圆角和阴影 */
 #page-header.not-home-page {
@@ -123,15 +139,16 @@ a {
     z-index: 5;
 }
 #aside-content .card-widget {
-    /* border: 2px solid #383a3f; */
-    border: 2px solid #d4d4d4;
-    transition: all 0.6s;
-    border-radius: 30px 30px 30px 30px;
+    transition: all 0.3s;
+    /* border: 2px solid #d4d4d4; */
+    border: 1px solid #e3e8f7;
+    border-radius: 12px;
     overflow: hidden;
     opacity: 0.9;
+    box-shadow: 0 12px 18px 2px rgb(204 204 204 / 17%);
 }
 #aside-content .card-widget:hover {
-    border: 2px solid #3568c7;
+    /* border: 2px solid #3568c7; */
     box-shadow: 0 0 15px #3568c7;
 }
 /* 帖子列表卡片 */
@@ -139,30 +156,36 @@ a {
     z-index: 5;
 }
 #recent-posts > .recent-post-item {
-    /* border: 2px solid #383a3f; */
-    /* border: 2px solid #d4d4d4; */
-    border: 2px solid #66627a;
-    transition: all 0.6s;
-    /* border-radius: 50px 20px 50px 20px; */
-    border-radius: 30px;
+    transition: all 0.3s;
+    /* border: 2px solid #66627a; */
+    border: 1px solid #e3e8f7;
+    border-radius: 12px;
     overflow: hidden;
     opacity: 0.95;
+    box-shadow: 0 12px 18px 2px rgb(204 204 204 / 17%);
 }
 #recent-posts > .recent-post-item:hover {
-    border: 2px solid #3568c7;
+    /* border: 2px solid #3568c7; */
     box-shadow: 0 0 15px #3568c7;
 }
-/* Page/Post页面主体区域卡片 */
+/* 帖子标题 */
+#recent-posts > .recent-post-item >.recent-post-info > .article-title {
+    font-weight: bold;
+}
+#recent-posts > .recent-post-item:hover >.recent-post-info > .article-title {
+    color: var(--bf-main);
+}
+
+/* Page/Post页面主体区域卡片(非文章卡片) */
 .layout > div:first-child:not(.recent-posts) {
-    /* border: 2px solid #383a3f; */
     /* border: 2px solid #d4d4d4; */
-    border: 2px solid #525252;
+    /* border: 2px solid #525252; */
     transition: all 0.6s;
     z-index: 5;
     /* opacity: 0.95; */
 }
 .layout > div:first-child:not(.recent-posts):hover {
-    border: 2px solid #3568c7;
+    /* border: 2px solid #3568c7; */
     box-shadow: 0 0 15px #3568c7;
 }
 
@@ -179,6 +202,11 @@ a {
 /* 侧边栏作者卡片按钮样式，设置圆角*/
 #aside-content .card-info #card-info-btn {
     border-radius: 5rem;
+    overflow: hidden;
+}
+#aside-content .card-info .button--animated:before {
+    background: #d8213c;
+    border: 5px solid #d8213c;
 }
 
 /* 页面右下角功能按钮 */
@@ -222,6 +250,8 @@ a {
 #footer {
     border-radius: 20px 20px 0 0;
     overflow: hidden;
+    /* background: linear-gradient(to right, rgb(72, 85, 99), rgb(41, 50, 60)); */
+    background: linear-gradient(to right, rgb(20 19 19), rgb(65, 67, 69));
 }
 #footer-wrap{
     border-radius: 20px 20px 0 0;
@@ -290,13 +320,25 @@ a {
 }
 
 /* 正在浏览的目录标题active样式 */
-#aside-content #card-toc .toc-content .toc-link.active {
-    /* border-left-color: #009d92; */
+#aside-content #card-toc .toc-content .toc-link {
     border-left: none;
-    /* background: #00c4b6; */
-    background: #70a1ff;
-    color: #fff;
+}
+#aside-content #card-toc .toc-content .toc-link.active {
+    /* border-left-color: rgba(0, 82, 204, 0); */
+    border-left: none;
+    /* background: #0052cc; */
+    background: none;
+    /* color: #fff; */
+    color: #0052cc;
     border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#aside-content #card-toc .toc-content .toc-link:not(.active) span {
+    opacity: .6;
+    cursor: pointer;
+    filter: blur(1px);
+    /* transition: .3s; */
 }
 .toc .toc-item .toc-link .toc-text {
     padding-left: 5px;
@@ -318,6 +360,48 @@ a {
     margin-bottom: 0 !important;
 }
 
+/* 文章内超链接 */
+#article-container a {
+    text-decoration: none;
+    border-bottom: 2px solid #5e7bb8;
+    color: #363636;
+    font-weight: bold;
+    padding: 0 4px;
+    border-radius: 8px 8px 0 0;
+}
+#article-container .headerlink {
+    text-decoration: none;
+    border-bottom: none;
+    color: #363636;
+    padding: 0;
+}
+#article-container a:hover {
+    text-decoration: none;
+    border-bottom: none;
+    background-color: #5e7bb8;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 4px;
+}
+/* 消除图片外面包裹超链接样式 */
+#article-container a.fancybox {
+    border-bottom: 0;
+    padding: 0;
+    margin: auto;
+    width: fit-content;
+}
+#article-container a.fancybox:hover {
+    background: none;
+}
+/* 消除友链外面包裹超链接样式 */
+#article-container .flink-list .flink-list-item a {
+    border-bottom: 0;
+    padding: 0;
+    margin: auto;
+    width: fit-content;
+}
+
 
 /* 文章版权 */
 #post .post-copyright {
@@ -333,6 +417,7 @@ a {
     height: 40px;
     line-height: 39px;
     border-radius: 15px;
+    overflow: hidden;
 }
 .button--animated:before {
     background: #425aef;

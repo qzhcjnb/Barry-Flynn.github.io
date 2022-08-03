@@ -15,7 +15,7 @@
 	border: 1px solid #c0c4d1;
 	border-radius: 8px;
 	z-index: 100;
-	transition: 0.3s;
+	/* transition: 0.3s; */
 }
 #rightMenu .rightMenu-group{
 	padding: 7px 6px;

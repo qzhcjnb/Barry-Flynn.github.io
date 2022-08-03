@@ -35,21 +35,27 @@ rmf.switchDarkMode = function(){
 };
 
 // 阅读模式
-rmf.switchReadMode = function(){
-    const $body = document.body
-    $body.classList.add('read-mode')
-    const newEle = document.createElement('button')
-    newEle.type = 'button'
-    newEle.className = 'fas fa-sign-out-alt exit-readmode'
-    $body.appendChild(newEle)
+// rmf.switchReadMode = function(){
+//     const $body = document.body
+//     $body.classList.add('read-mode')
+//     const newEle = document.createElement('button')
+//     newEle.type = 'button'
+//     newEle.className = 'fas fa-sign-out-alt exit-readmode'
+//     $body.appendChild(newEle)
 
-    function clickFn () {
-        $body.classList.remove('read-mode')
-        newEle.remove()
-        newEle.removeEventListener('click', clickFn)
-    }
+//     function clickFn () {
+//         $body.classList.remove('read-mode')
+//         newEle.remove()
+//         newEle.removeEventListener('click', clickFn)
+//     }
 
-    newEle.addEventListener('click', clickFn)
+//     newEle.addEventListener('click', clickFn)
+// }
+
+// 繁简切换
+rmf.switchTranslate = function(){
+    // 控制语句在 tw_cn.js 文件末尾处
+    // console.log('右键菜单繁简切换')
 }
 
 // 主题切换
