@@ -53,7 +53,11 @@ b, strong {
 
 /* 分隔线 */
 hr {
-    border: 2px dashed #789dd3;
+    /* border: 2px dashed #789dd3; */
+    border: 4px dashed #6588bb;
+    border-left: none;
+    border-right: none;
+    border-top: none;
 }
 hr:before {
     color: #4d73ff;
@@ -71,7 +75,7 @@ hr:before {
 /* Page页面顶部图，设置圆角和阴影 */
 #page-header.not-home-page {
     border-radius: 0 0 300px 300px;
-    box-shadow: 0px 10px 50px #7ac7df;
+    box-shadow: 0px 10px 50px #2964bd;
 }
 
 /* Page页面标题，设置文字阴影 */
@@ -316,7 +320,8 @@ hr:before {
 #aside-content #card-toc .toc-content ol.toc-child {
     margin-left: 15px;
     padding-left: 0px;
-    border-left: 1px solid #a89e9c;
+    border-left: 1px solid rgb(168 158 156 / 50%);
+    
 }
 
 /* 正在浏览的目录标题active样式 */
