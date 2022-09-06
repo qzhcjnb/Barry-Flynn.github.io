@@ -412,6 +412,14 @@ hr:before {
 #post .post-copyright {
     border-radius: 8px;
 }
+#post .post-copyright:before {
+    position: absolute;
+    top: -0.5rem;
+    right: 0.6rem;
+    color: #007aff;
+    content: '\f1f9';
+    font-size: 2rem;
+}
 
 /* 打赏按钮 */
 .post-reward .reward-button {
