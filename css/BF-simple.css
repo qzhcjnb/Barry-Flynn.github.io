@@ -279,6 +279,27 @@ hr:before {
 }
 
 
+/* ———————————————————— categories或tag页面的文章列表 ———————————————————— */
+.article-sort-item {
+    flex-direction: row-reverse; /*将文章封面和标题的顺序倒置*/
+    /* padding-left: 0.5rem; */
+    /* background-color: #f2f2f2; */
+    border-radius: 15px;
+}
+/* .article-sort-item:hover {
+    background-color: #d9d9d9;
+} */
+.article-sort-item .article-sort-item-info {
+    padding: 0; /*文章标题前的内边距归零*/
+}
+.article-sort-item .article-sort-item-img {
+    border-radius: 15px; /*封面图片设为圆角*/
+    overflow: hidden;
+}
+.article-sort-item.year {
+    flex-direction: row; /*年份数字从左边开始显示*/
+}
+
 
 /* ———————————————————— Post页面 ———————————————————— */
 
