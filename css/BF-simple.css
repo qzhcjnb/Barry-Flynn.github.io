@@ -255,7 +255,7 @@ hr:before {
     border-radius: 20px 20px 0 0;
     overflow: hidden;
     /* background: linear-gradient(to right, rgb(72, 85, 99), rgb(41, 50, 60)); */
-    background: linear-gradient(to right, rgb(20 19 19), rgb(65, 67, 69));
+    background: linear-gradient(to right, rgba(20, 19, 19, 0.5), rgba(65, 67, 69, 0.5));
 }
 #footer-wrap{
     border-radius: 20px 20px 0 0;
