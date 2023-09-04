@@ -520,14 +520,14 @@ setTimeout(function(){preloader.endLoading();}, 3000);</script><div class="js-pj
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'https://twikoo.meta-code.top/',
+      envId: 'https://hexoblog-twikoo.meta-code.top',
       region: ''
     }, null))
   }
 
   const getCount = () => {
     twikoo.getCommentsCount({
-      envId: 'https://twikoo.meta-code.top/',
+      envId: 'https://hexoblog-twikoo.meta-code.top',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -543,7 +543,7 @@ setTimeout(function(){preloader.endLoading();}, 3000);</script><div class="js-pj
       init()
       bool && $countDom && setTimeout(getCount,0)
     } else {
-      getScript('/CDN/comments/twikoo.all.min.js').then(()=> {
+      getScript('/CDN/comments/twikoo_1.6.18.all.min.js').then(()=> {
         init()
         bool && $countDom && setTimeout(getCount,0)
       })
@@ -576,7 +576,7 @@ setTimeout(function(){preloader.endLoading();}, 3000);</script><div class="js-pj
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'https://twikoo.meta-code.top/',
+        envId: 'https://hexoblog-twikoo.meta-code.top',
         region: '',
         pageSize: 5,
         includeReply: true
@@ -602,7 +602,7 @@ setTimeout(function(){preloader.endLoading();}, 3000);</script><div class="js-pj
     if (typeof twikoo === 'object') {
       runTwikoo()
     } else {
-      getScript('/CDN/comments/twikoo.all.min.js').then(runTwikoo)
+      getScript('/CDN/comments/twikoo_1.6.18.all.min.js').then(runTwikoo)
     }
   }
 
