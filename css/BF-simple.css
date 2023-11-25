@@ -16,7 +16,7 @@
 /* ———————————————————— 全局 ———————————————————— */
 
 /* 鼠标样式 */
-html {
+html, body {
     /* overflow-y: overlay; */
 
     /* 小手 */
@@ -24,6 +24,8 @@ html {
 
     /* 科技风 */
     cursor: url("/img/cursor/normal2.cur"),auto;
+    /* 鸿蒙字体 */
+    font-family: HarmonyOS_Regular,sans-serif,Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun;
 }
 a {
     /* 小手 */
