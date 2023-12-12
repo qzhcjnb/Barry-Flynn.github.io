@@ -424,7 +424,7 @@ hr:before {
     background-color: #5e7bb8;
     color: #ffffff;
     font-weight: bold;
-    padding: 4px;
+    padding: 0 4px;
     border-radius: 4px;
 }
 /* 消除图片外面包裹超链接样式 */
