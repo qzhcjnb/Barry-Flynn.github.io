@@ -420,7 +420,6 @@ hr:before {
 }
 #article-container a:hover {
     text-decoration: none;
-    border-bottom: none;
     background-color: #5e7bb8;
     color: #ffffff;
     font-weight: bold;
