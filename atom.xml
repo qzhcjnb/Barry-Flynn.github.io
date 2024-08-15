@@ -6,7 +6,7 @@
   <link href="https://blog.meta-code.top/atom.xml" rel="self"/>
   
   <link href="https://blog.meta-code.top/"/>
-  <updated>2024-04-11T13:55:57.164Z</updated>
+  <updated>2024-08-15T19:57:19.915Z</updated>
   <id>https://blog.meta-code.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【GitHub】基于Actions和Pages实现项目的自动构建与部署</title>
+    <link href="https://blog.meta-code.top/2024/08/15/2024-13/"/>
+    <id>https://blog.meta-code.top/2024/08/15/2024-13/</id>
+    <published>2024-08-15T09:06:57.000Z</published>
+    <updated>2024-08-15T19:57:19.915Z</updated>
+    
+    
+    <summary type="html">手上有个前端项目使用的 Vite 来打包，我打算使用免费的 Github Actions 执行 workflows 工作流，实现自动打包，并通过 Github Pages 自动部署打包后的页面。</summary>
+    
+    
+    
+    
+    <category term="GitHub" scheme="https://blog.meta-code.top/tags/GitHub/"/>
+    
+    <category term="前端" scheme="https://blog.meta-code.top/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Vue" scheme="https://blog.meta-code.top/tags/Vue/"/>
+    
+    <category term="pnpm" scheme="https://blog.meta-code.top/tags/pnpm/"/>
+    
+    <category term="Vite" scheme="https://blog.meta-code.top/tags/Vite/"/>
+    
+  </entry>
   
   <entry>
     <title>【Hexo博客】配置RSS插件，生成 Atom1.0 或 RSS2.0 摘要文件</title>
@@ -281,33 +306,6 @@
     
     
     <category term="BFUI" scheme="https://blog.meta-code.top/tags/BFUI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【前端】说一说promise是什么与使用方法？</title>
-    <link href="https://blog.meta-code.top/2023/03/01/2023-30/"/>
-    <id>https://blog.meta-code.top/2023/03/01/2023-30/</id>
-    <published>2023-03-01T14:34:12.000Z</published>
-    <updated>2023-03-03T13:03:26.242Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;解题思路&quot;&gt;&lt;a href=&quot;#解题思路&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="前端" scheme="https://blog.meta-code.top/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="JavaScript" scheme="https://blog.meta-code.top/tags/JavaScript/"/>
-    
-    <category term="面试题库" scheme="https://blog.meta-code.top/tags/%E9%9D%A2%E8%AF%95%E9%A2%98%E5%BA%93/"/>
     
   </entry>
   

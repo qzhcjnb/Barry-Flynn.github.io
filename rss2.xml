@@ -15,8 +15,35 @@
     <atom:link href="https://blog.meta-code.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>呜呼！这里是百里飞洋（BarryFlynn）的个人博客网站主页，这里有学习的笔记，有生活的乐趣，有我独一无二的网络记忆。这是独属于我的天地！</description>
-    <pubDate>Thu, 11 Apr 2024 13:55:57 GMT</pubDate>
+    <pubDate>Thu, 15 Aug 2024 19:57:19 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>【GitHub】基于Actions和Pages实现项目的自动构建与部署</title>
+      <link>https://blog.meta-code.top/2024/08/15/2024-13/</link>
+      <guid>https://blog.meta-code.top/2024/08/15/2024-13/</guid>
+      <pubDate>Thu, 15 Aug 2024 09:06:57 GMT</pubDate>
+      
+      <description>手上有个前端项目使用的 Vite 来打包，我打算使用免费的 Github Actions 执行 workflows 工作流，实现自动打包，并通过 Github Pages 自动部署打包后的页面。</description>
+      
+      
+      
+      
+      
+      <category domain="https://blog.meta-code.top/tags/GitHub/">GitHub</category>
+      
+      <category domain="https://blog.meta-code.top/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://blog.meta-code.top/tags/Vue/">Vue</category>
+      
+      <category domain="https://blog.meta-code.top/tags/pnpm/">pnpm</category>
+      
+      <category domain="https://blog.meta-code.top/tags/Vite/">Vite</category>
+      
+      
+      <comments>https://blog.meta-code.top/2024/08/15/2024-13/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>【Hexo博客】配置RSS插件，生成 Atom1.0 或 RSS2.0 摘要文件</title>
@@ -311,35 +338,6 @@
       
       
       <comments>https://blog.meta-code.top/2023/03/03/2023-31/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>【前端】说一说promise是什么与使用方法？</title>
-      <link>https://blog.meta-code.top/2023/03/01/2023-30/</link>
-      <guid>https://blog.meta-code.top/2023/03/01/2023-30/</guid>
-      <pubDate>Wed, 01 Mar 2023 14:34:12 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;解题思路&quot;&gt;&lt;a href=&quot;#解题思路&quot; class=&quot;headerlink&quot;</description>
-          
-        
-      
-      
-      
-      
-      
-      <category domain="https://blog.meta-code.top/tags/%E5%89%8D%E7%AB%AF/">前端</category>
-      
-      <category domain="https://blog.meta-code.top/tags/JavaScript/">JavaScript</category>
-      
-      <category domain="https://blog.meta-code.top/tags/%E9%9D%A2%E8%AF%95%E9%A2%98%E5%BA%93/">面试题库</category>
-      
-      
-      <comments>https://blog.meta-code.top/2023/03/01/2023-30/#disqus_thread</comments>
       
     </item>
     
