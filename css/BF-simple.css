@@ -3,8 +3,7 @@
 风格：简约风格
 作者: 百里飞洋(Barry-Flynn)
 博客：http://blog.meta-code.top
-更新：2022年08月02日
-更新：2021年01月12日
+更新：2024年04月22日
 —————————————————————————————— */
 
 :root {
@@ -294,6 +293,10 @@ hr:before {
     pointer-events: none;
     z-index: 1;
 }
+/* 亮色模式下隐藏 */
+[data-theme='light'] #universe {
+    display: none;
+}
 
 
 /* ———————————————————— categories或tag页面的文章列表 ———————————————————— */
@@ -339,6 +342,11 @@ hr:before {
 /* 高亮代码块 */
 #article-container figure.highlight {
     margin: 0.2rem 0 0.8rem;
+}
+
+/* 引用区块中无序列表里的p标签 */
+#article-container blockquote ul p {
+    padding: 0;
 }
 
 /* 目录内边距 */
