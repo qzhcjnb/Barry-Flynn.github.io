@@ -15,8 +15,27 @@
     <atom:link href="https://blog.meta-code.top/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>呜呼！这里是百里飞洋（BarryFlynn）的个人博客网站主页，这里有学习的笔记，有生活的乐趣，有我独一无二的网络记忆。这是独属于我的天地！</description>
-    <pubDate>Fri, 23 Aug 2024 12:12:17 GMT</pubDate>
+    <pubDate>Sun, 27 Oct 2024 15:28:04 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>我也中招了！大量简中博客站点被镜像，并翻译成了繁体中文</title>
+      <link>https://blog.meta-code.top/2024/10/27/2024-15/</link>
+      <guid>https://blog.meta-code.top/2024/10/27/2024-15/</guid>
+      <pubDate>Sun, 27 Oct 2024 11:44:05 GMT</pubDate>
+      
+      <description>近期很多中文博客站长吐槽自己的网站被仿，我竟然也中招了</description>
+      
+      
+      
+      
+      
+      <category domain="https://blog.meta-code.top/tags/%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E8%AE%B0/">博客折腾记</category>
+      
+      
+      <comments>https://blog.meta-code.top/2024/10/27/2024-15/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>【GitHub】基于Actions和Pages实现项目的自动构建与部署</title>
@@ -319,25 +338,6 @@
       
       
       <comments>https://blog.meta-code.top/2023/03/12/2023-34/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>【BFUI】组件实现：Dialog 对话框</title>
-      <link>https://blog.meta-code.top/2023/03/03/2023-31/</link>
-      <guid>https://blog.meta-code.top/2023/03/03/2023-31/</guid>
-      <pubDate>Fri, 03 Mar 2023 13:04:25 GMT</pubDate>
-      
-      <description>本文为 BFUI 组件库的故事，记录了关于 Dialog 对话框组件的开发设计历程</description>
-      
-      
-      
-      
-      
-      <category domain="https://blog.meta-code.top/tags/BFUI/">BFUI</category>
-      
-      
-      <comments>https://blog.meta-code.top/2023/03/03/2023-31/#disqus_thread</comments>
       
     </item>
     
